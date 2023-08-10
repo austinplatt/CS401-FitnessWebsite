@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlatinumPlatt Fitness</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<?php include 'header.php'; ?>
+	<div class="navigation">
+		<?php include('nav.php'); ?>
+	</div>
+	
+	<div class="section">
+		<div class="container">
+			<h2 class="section-title">PlatinumPlatt Fitness</h2>
+			<p class="section-description">This website is designed to help you achieve your fitness goals. We offer a variety of workout programs, meal plans, and fitness tips to help you get in the best shape of your life.</p>
+			<button class="button">Get Started</button>
+		</div>
+	</div>
+	
+	<?php include 'footer.php'; ?>
+</body>
+</html>
+

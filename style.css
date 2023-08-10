@@ -1,0 +1,170 @@
+body {
+
+  font-family: Helvetica;
+  background-color: #1A3B60; 
+  text-align:center;
+  font-size: 50px;
+}
+
+h1 {
+    color: #2E2E2E;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+p {
+    color: #4D4D4D;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Header styles */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo {
+   margin-top: 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  object-fit: cover;
+  float: center;
+}
+
+.header-title {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.navigation {
+        font-size: 36px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.navigation a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+/* Footer styles */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  height: 40px;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Section styles */
+
+.section {
+    padding: 50px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Form styles */
+
+.form {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
+
+.form-input label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-input input[type="text"],
+.form-input input[type="email"] {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+}
+
+.form-input input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navigation {
+        margin-top: 20px;
+    }
+    
+    .navigation a {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+}
