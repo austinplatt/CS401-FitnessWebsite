@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PlatinumPlatt Fitness</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>PlatinumPlatt Fitness</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+	<div class="header">
+			<?php include 'header.php'; ?>
+	</div>
+
+	<div class="navigation">
+		<?php include('nav.php'); ?>
+	</div>
+
 <body>
-    <?php include 'header.php'; ?>
-    <div class="navigation">
-        <?php include('nav.php'); ?>
-    </div>
+	
 
-    <div class="section">
-        <div class="container">
-            <div class="logo">
-                <img src="logo.png" alt="PlatinumPlatt Fitness Logo">
-            </div>
-            <div class="text-box">
-                <h2 class="section-title">Our Mission</h2>
-                <p class="section-description">At PlatinumPlatt Fitness, our mission is to empower individuals to achieve their fitness goals and live a healthier, more active lifestyle.</p>
-            </div>
-        </div>
-    </div>
 
-    <div class="section">
-        <div class="container">
-            <div class="text-box">
-                <h2 class="section-title">Discover the Truth in Fitness</h2>
-                <p class="section-description">Get ready to uncover the science behind effective workouts, nutrition, and overall wellness. Our experts are here to guide you on your fitness journey.</p>
-            </div>
-        </div>
-    </div>
 
-    <div class="section">
-        <div class="container">
-            <h2 class="section-title">Interested in a Membership?</h2>
-            <form class="interest-form" action="submit_interest.php" method="post">
-                <!-- Form fields here -->
-                <button class="button" type="submit">Submit</button>
-            </form>
-        </div>
-    </div>
+	
+	<div class="mainBody">
+		
+		
+			<h2 class="section-title">PlatinumPlatt Fitness</h2>
+			<p class="section-description">This website is designed to help you achieve your fitness goals. We offer a variety of workout programs, meal plans, and fitness tips to help you get in the best shape of your life.</p>
+			<button class="button">GET STARTED</button>
+		
+	</div>
+	
+	<?php include 'footer.php'; ?>
+</body>
+</html>
