@@ -303,16 +303,6 @@ input[type="submit"] {
     margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Responsive styles */
 
 @media (max-width: 768px) {
@@ -331,20 +321,29 @@ input[type="submit"] {
     }
 }
 
-.club-info{
+.club-info {
     display: flex;
     flex-direction: column;
-    
-    width: 30%;
-    
-}
-
-.club-info-Container{
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(52, 53, 65);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .club-info h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .club-info-Container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 50px;
-}
+    box-sizing: border-box;
+  }
