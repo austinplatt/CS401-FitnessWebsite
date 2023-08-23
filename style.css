@@ -330,12 +330,12 @@ input[type="submit"] {
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin-bottom: 20px;
-  }
+}
   
   .club-info h3 {
     color: #fff;
     margin-bottom: 10px;
-  }
+}
   
   .club-info-Container {
     display: flex;
@@ -346,4 +346,4 @@ input[type="submit"] {
     width: 100%;
     margin-bottom: 50px;
     box-sizing: border-box;
-  }
+}
