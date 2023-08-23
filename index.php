@@ -5,6 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
+<body>
+
 	<div class="header">
 			<?php include 'header.php'; ?>
 	</div>
@@ -13,7 +15,7 @@
 		<?php include('nav.php'); ?>
 	</div>
 
-<body>
+
 	
 
 
@@ -28,6 +30,11 @@
 		
 	</div>
 	
-	<?php include 'footer.php'; ?>
+
+	<div class="footer">
+                <?php include("footer.php"); ?>
+	</div>
+
 </body>
+
 </html>
