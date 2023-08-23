@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>PlatinumPlatt Fitness</title>
+        <title>Workouts</title>
         <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -20,20 +20,24 @@
         
                 <div class="bodyContainer">
 
-                        <div class="left-image">
-                                        <img src="images/fitness.jpg" alt="Fitness Image">
+                        <div class="left-image"> 
+                                        <img src="images/fitness.jpg" alt="Les Mills Image"> 
+                        </div>
+
+                        <div class="right-image">
+                                        <img src="images/fitness.jpg" alt="Matrix Image">
                         </div>
                         
                         <div class="main-text">
                         
                                 <div class="section-title">               
-                                        <h2>OUR MISSION</h2>
-                                        <p>We are a fitness center dedicated to helping people reach their health and fitness goals. Our trainers are experienced and knowledgeable and will work with you to develop a personalized fitness plan that works for you.</p>
+                                        <h2>LES MILLS</h2>
+                                        <p>Access limitless LES MILLS on Demand content - enjoy your preferred workouts whenever and wherever you like. Save 33% on your monthly subscription fees and relish your initial 60 days absolutely FREE.</p>
                                 </div>
                                 
                                 <div class="section-title">
-                                        <h2>DISCOVER THE TRUTH IN FITNESS</h2>
-                                        <p> At PlatinumPlatt Fitness, we pride ourselves in being a locally owned and operated fitness club. Through your membership at PlatinumPlatt, you will recieve the necessary tools and skills to achieve your ideal physique. Our passionate and knowledgeable coaching staff will strive to help you reach your goals, both inside and outside the gym.</p>
+                                        <h2>MATRIX FITNESS</h2>
+                                        <p> Matrix offers an extensive collection of exercises that provide detailed demonstrations to cater to your overall body fitness needs. Regardless of your distinct objectives or skill level, our exercise library is designed to enhance strength, cardiovascular health, flexibility, and other aspects, all while honing proper form and technique.</p>
                                 </div>
                                 <div class="club-info">
                                         <h3>CLUB HOURS</h3>
