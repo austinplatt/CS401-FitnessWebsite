@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>PlatinumPlatt Fitness</title>
+        <title>PlatinumPlatt Fitness | About</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 
         <div class="header">
@@ -20,7 +21,7 @@
         
                 <div class="bodyContainer">
 
-                        <div class="left-image">
+                        <div class="left-imageAbout">
                                 <img src="images\fitness.jpeg" alt="Fitness Image">
 
 
