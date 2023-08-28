@@ -25,7 +25,7 @@
 
                         <div class="leftContainer">
                                 <div class="single-image">
-                                        <img src="images/trainer.jpeg" alt="Personal Trainer Image">
+                                        <img src="images/trainee.jpeg" alt="Personal Trainer Image">
                                 </div>
                         </div>
                         
