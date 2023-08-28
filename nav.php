@@ -1,4 +1,4 @@
-
+<?php session_start(); ?>
 <div class="topnav">
     <a href="index.php">HOME</a>
     <a href="about.php">ABOUT US</a>

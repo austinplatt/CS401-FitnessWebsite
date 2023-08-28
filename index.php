@@ -16,11 +16,6 @@
 		<?php include('nav.php'); ?>
 	</div>
 
-
-	
-
-
-
 	
 	<div class="mainBody">
 		
