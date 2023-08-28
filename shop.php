@@ -3,6 +3,7 @@
 <head>
         <title>PlatinumPlatt Fitness</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 
         <div class="header">
