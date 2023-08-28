@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>PlatinumPlatt Fitness</title>
+        <title>PlatinumPlatt Fitness | Training</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 
         <div class="header">
@@ -20,47 +21,12 @@
         
                 <div class="bodyContainer">
 
-                        <div class="left-image">
-                                <img src="images\trainee.jpeg" alt="Trainer Image">
 
 
-                                <div class="form-Group">
-                                
-                                <form action="join.php" method="post">
-                                        <h3>JOIN NOW</h3>
-                                        <p>Join now to get a free 1 week trial!</p>
-
-                                        <div class="form-row">
-                                                <div class="input-group">
-                                                <label for="fname">First name:</label>
-                                                <input type="text" id="fname" name="fname" required>
-                                                </div>
-                                                
-                                                <div class="input-group">
-                                                <label for="lname">Last name:</label>
-                                                <input type="text" id="lname" name="lname" required>
-                                                </div>
-                                        </div>
-
-                                        <div class="form-row">
-                                                <div class="input-group">
-                                                <label for="email">Email:</label>
-                                                <input type="text" id="email" name="email" required>
-                                                </div>
-                                                
-                                                <div class="input-group">
-                                                <label for="phone">Phone:</label>
-                                                <input type="text" id="phone" name="phone" required>
-                                                </div>
-                                        </div>
-                                        
-                                        <input type="submit" value="Join Now">
-                                        </form>
+                        <div class="leftContainer">
+                                <div class="single-image">
+                                        <img src="images/trainer.jpeg" alt="Personal Trainer Image">
                                 </div>
-
-
-
-
                         </div>
                         
                         <div class="main-text">
@@ -114,11 +80,6 @@
                         
                 </div>
         </div>
-
-        
+        <?php include("footer.php"); ?>
         </body>
-
-        <div class="footer">
-                <?php include("footer.php"); ?>
-        </div>
 </html>
