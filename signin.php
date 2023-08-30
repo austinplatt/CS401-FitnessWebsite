@@ -33,7 +33,18 @@
             <form method="post" action="loginHandler.php">
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" name="email" value="<?php echo isset($_SESSION['preserved_email']) ? htmlspecialchars($_SESSION['preserved_email']) : ''; ?>" required>
+                    <input type="email" name="email" value="<?php 
+                        echo isset($_SESSION['last_signup_email']) ? htmlspecialchars($_SESSION['last_signup_email']) : 
+                            (isset($_SESSION['preserved_email']) ? htmlspecialchars($_SESSION['preserved_email']) : '');
+                    ?>" required>
+
+                    <?php
+                        // After using the last_signup_email for its purpose, clear it
+                        if (isset($_SESSION['last_signup_email'])) {
+                            unset($_SESSION['last_signup_email']);
+                        }
+                    ?>
+
                 </div>
                 
                 <?php
