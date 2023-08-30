@@ -1,10 +1,9 @@
 <?php
-
     session_start();
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $_SESSION['email'] = $_POST['email'];
+    $_SESSION['last_signup_email'] = $email;
 
     require_once 'Dao.php';
 
@@ -21,4 +20,5 @@
             $_SESSION['error_message'] = $result;
             header("Location: signup.php");
             exit;
-    }
+        }
+?>
