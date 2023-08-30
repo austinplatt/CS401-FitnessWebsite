@@ -266,6 +266,21 @@ ul {
     background-color: rgb(52, 53, 65);
 }
 
+.shirt-image1, .shirt-image2, .shirt-image3, .shirt-image4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust this margin as needed */
+}
+
+.shirt-image1 img,
+.shirt-image2 img,
+.shirt-image3 img,
+.shirt-image4 img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
 /* Form styles */
 
 .form-Group{

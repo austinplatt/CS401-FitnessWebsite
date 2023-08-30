@@ -28,11 +28,23 @@
                         
                         <div class="main-text">
                         
-                                <div class="shirt-image1">               
+                                <div class="shirt-image1">  
+                                    <img src="images\artboard.jpg" alt="Shirt1 Image">             
                                       
                                 </div>
                                 
                                 <div class="shirt-image2">
+                                    <img src="images\artboard (1).jpg" alt="Shirt2 Image">
+                                        
+                                </div>
+                                
+                                <div class="shirt-image3"> 
+                                    <img src="images\artboard (2).jpg" alt="Shirt3 Image">              
+                                      
+                                </div>
+                                
+                                <div class="shirt-image4">
+                                    <img src="images\artboard (3).jpg" alt="Shirt4 Image">
                                         
                                 </div>
 
