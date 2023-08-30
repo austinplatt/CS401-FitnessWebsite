@@ -64,8 +64,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  /* adds thin black border underneath the header */
-    border-bottom: .3px solid #000;
+  border-bottom: .3px solid #000;
   
   
 
@@ -266,12 +265,16 @@ ul {
     background-color: rgb(52, 53, 65);
 }
 
-.shirt-image1, .shirt-image2, .shirt-image3, .shirt-image4 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; /* Adjust this margin as needed */
+.shirt-image {
+    position: relative;
+    
 }
+
+
+.shirt-image img:hover {
+    cursor: pointer;
+}
+
 
 .shirt-image1 img,
 .shirt-image2 img,
@@ -308,12 +311,12 @@ form {
 .form-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px; /* spacing between the rows */
+    margin-bottom: 20px; 
 }
 
 
 .input-group {
-    width: 48%; /* this allows for a tiny space between two input groups in the same row */
+    width: 48%; 
     display: flex;
     flex-direction: column;
 }
@@ -330,34 +333,34 @@ form {
 
 
 label {
-    margin-bottom: 5px; /* spacing between label and input */
+    margin-bottom: 5px; 
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
     width: 100%;
     border: none;
-    border-bottom: 2px solid #ddd; /* Just a bottom border */
+    border-bottom: 2px solid #ddd; 
     background-color: transparent; 
     padding: 10px 0;
     font-size: 16px;
-    color: #aaa; /* Placeholder color */
-    transition: border-color 0.3s ease; /* Smooth transition */
-    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.1); /* Subtle shadow */
-    outline: none; /* Remove default focus outline */
+    color: #aaa; 
+    transition: border-color 0.3s ease; 
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.1); 
+    outline: none;
     text-align: center;
 }
 
 
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
-    border-color: #4CAF50; /* Change border color on focus */
-    color: rgb(217, 217, 227); /* Text color */
+    border-color: #4CAF50; 
+    color: rgb(217, 217, 227); 
 }
 
 
 
 input[type="text"]::placeholder {
-    color: #aaa; /* Placeholder color */
+    color: #aaa; 
 }
 
 input[type="submit"] {
@@ -431,6 +434,76 @@ input[type="submit"] {
     margin-bottom: 50px;
     box-sizing: border-box;
   }
+
+  .shirt-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    margin: 20px 0; 
+}
+
+.shirt-grid > div {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.shirt-grid img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.sold-out {
+    display: none;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: linear-gradient(145deg, #f04444, #ff6a6a); 
+    padding: 15px 25px; 
+    border-radius: 25px; 
+    
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    z-index: 10;
+    transition: transform 0.2s; 
+}
+
+.sold-out:hover {
+    transform: translate(-50%, -50%) scale(1.05); 
+}
+
+
+
+.section-title a {
+    text-decoration: none;  
+    color: inherit;         
+    display: block;         
+    transition: transform 0.3s;
+}
+
+.section-title a:hover {
+    color: #0056b3;
+    text-decoration: none;  
+    transform: scale(1.1);
+}
+
+.topnav .active {
+    background-color: #4CAF50;  
+    color: white;
+}
+
+
 
 
   @media (max-width: 1250px) {
