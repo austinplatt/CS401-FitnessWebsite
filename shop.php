@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>PlatinumPlatt Fitness</title>
+        <title>PlatinumPlatt Fitness | Shop</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" type="image/png" href="images/favicon.ico">
+
 </head>
+
+
+
 
         <div class="header">
 		<?php include 'header.php'; ?>
@@ -21,31 +25,33 @@
         
                 <div class="bodyContainer">
 
-                        <div class="left-image">
-                                <img src="images\fitness.jpeg" alt="Fitness Image">
-
-                        </div>
                         
                         <div class="main-text">
                         
-                                <div class="shirt-image1">  
-                                    <img src="images\artboard.jpg" alt="Shirt1 Image">             
-                                      
-                                </div>
-                                
-                                <div class="shirt-image2">
-                                    <img src="images\artboard (1).jpg" alt="Shirt2 Image">
+                                <div class="shirt-grid">
+                                        <div class="shirt-image" onclick="displaySoldOut(this)">  
+                                                <img src="images\artboard.jpg" alt="Shirt1 Image">             
+                                        <div class="sold-out">SOLD OUT</div>
+                                        </div>
                                         
-                                </div>
-                                
-                                <div class="shirt-image3"> 
-                                    <img src="images\artboard (2).jpg" alt="Shirt3 Image">              
-                                      
-                                </div>
-                                
-                                <div class="shirt-image4">
-                                    <img src="images\artboard (3).jpg" alt="Shirt4 Image">
+                                        <div class="shirt-image" onclick="displaySoldOut(this)">
+                                                <img src="images\artboard (1).jpg" alt="Shirt2 Image">
+                                        <div class="sold-out">SOLD OUT</div>
+                                                
+                                        </div>
                                         
+                                        <div class="shirt-image" onclick="displaySoldOut(this)"> 
+                                                <img src="images\artboard (2).jpg" alt="Shirt3 Image">   
+                                        <div class="sold-out">SOLD OUT</div>       
+                                        
+                                        </div>
+                                        
+                                        <div class="shirt-image" onclick="displaySoldOut(this)">
+                                                <img src="images\artboard (3).jpg" alt="Shirt4 Image">
+                                        <div class="sold-out">SOLD OUT</div>
+                                                
+                                        </div>
+
                                 </div>
 
                                 <div class="club-info-Container">
@@ -80,6 +86,17 @@
                 </div>
         </div>
 
+
+        <script>
+                function displaySoldOut(parentElement) {
+                const soldOutDiv = parentElement.querySelector('.sold-out');
+                if (soldOutDiv) {
+                        soldOutDiv.style.display = "block";
+                }
+                
+                }
+
+        </script>
         
         </body>
 
