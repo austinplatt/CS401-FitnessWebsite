@@ -33,9 +33,13 @@
                                 <div class="main-text">
                         
                                 <div class="section-title">               
-                                        <h2>LES MILLS</h2>
-                                        <p>Access limitless LES MILLS on Demand content - enjoy your preferred workouts whenever and wherever you like. Save 33% on your monthly subscription fees and relish your initial 60 days absolutely FREE.</p>
+                                        <h2><a href="https://try.lesmillsondemand.com/offers/?aff_id=3780&transaction_id=1023bc480aa36c043e2e3d451be600&offer_id=291" id="lesMillsLink" target="_blank" rel="noopener noreferrer">LES MILLS</a></h2>
+
+                                        <div class="section-text">
+                                                <p>Access limitless LES MILLS on Demand content - enjoy your preferred workouts whenever and wherever you like. Save 33% on your monthly subscription fees and relish your initial 60 days absolutely FREE.</p>
+                                        </div>
                                 </div>
+
                                 </div>
 
 
@@ -49,8 +53,11 @@
 
                                 <div class="main-text">
                                         <div class="section-title">
-                                                <h2>MATRIX FITNESS</h2>
-                                                <p> Matrix offers an extensive collection of exercises that provide detailed demonstrations to cater to your overall body fitness needs. Regardless of your distinct objectives or skill level, our exercise library is designed to enhance strength, cardiovascular health, flexibility, and other aspects, all while honing proper form and technique.</p>
+                                                <h2><a href="https://matrixlearningcenter.com/us/eng/exercise-library/" target="_blank" rel="noopener noreferrer">MATRIX FITNESS</a></h2>
+
+                                                <div class="section-text">
+                                                        <p> Matrix offers an extensive collection of exercises that provide detailed demonstrations to cater to your overall body fitness needs. Regardless of your distinct objectives or skill level, our exercise library is designed to enhance strength, cardiovascular health, flexibility, and other aspects, all while honing proper form and technique.</p>
+                                                </div>
                                         </div>
                                 </div>
                         </div>
