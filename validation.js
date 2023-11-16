@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Function to validate the email format
     function isEmailValid(email) {
-        // Use a regular expression to validate the email format
         const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
         return emailPattern.test(email);
     }
@@ -15,20 +13,18 @@ document.addEventListener('DOMContentLoaded', function() {
             const passwordInput = signinForm.querySelector('input[name="password"]');
             let isValid = true;
 
-            // Validate email
             if (!isEmailValid(emailInput.value)) {
                 alert('Please enter a valid email address.');
                 isValid = false;
             }
 
-            // Validate password (you can add more specific validation rules)
             if (passwordInput.value.trim() === '') {
                 alert('Password is required.');
                 isValid = false;
             }
 
             if (!isValid) {
-                event.preventDefault(); // Prevent the form from being submitted
+                event.preventDefault(); 
             }
         });
     }
@@ -39,20 +35,18 @@ document.addEventListener('DOMContentLoaded', function() {
             const passwordInput = signupForm.querySelector('input[name="password"]');
             let isValid = true;
 
-            // Validate email
             if (!isEmailValid(emailInput.value)) {
                 alert('Please enter a valid email address.');
                 isValid = false;
             }
 
-            // Validate password (you can add more specific validation rules)
             if (passwordInput.value.trim() === '') {
                 alert('Password is required.');
                 isValid = false;
             }
 
             if (!isValid) {
-                event.preventDefault(); // Prevent the form from being submitted
+                event.preventDefault();
             }
         });
     }
