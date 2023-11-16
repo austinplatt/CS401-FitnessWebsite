@@ -57,7 +57,8 @@
             
         </div>
     </div>
-
+    
+    <script src="path/to/validation.js"></script>
 
 </body>
 
