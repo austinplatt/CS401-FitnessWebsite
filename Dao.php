@@ -7,7 +7,7 @@
 
         private $host = "mysql:dbname=heroku_9c75f41139d02b3;host=us-cluster-east-01.k8s.cleardb.net";
         private $user = "b966495833aeb9";
-        private $pass = "50d8dab8";
+        private $pass = "50d8dab7";
 
         
 
