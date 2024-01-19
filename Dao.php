@@ -5,9 +5,9 @@
 
         //connect to heroku database
 
-        private $host = "mysql:dbname=heroku_6001063175f0ba1;host=us-cdbr-east-06.cleardb.net";
-        private $user = "b11dfa529b213f";
-        private $pass = "418d23d4";
+        private $host = "mysql:dbname=heroku_9c75f41139d02b3;host=us-cluster-east-01.k8s.cleardb.net";
+        private $user = "b966495833aeb9";
+        private $pass = "50d8dab7";
 
         
 
